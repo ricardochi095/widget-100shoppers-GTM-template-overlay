@@ -1,5 +1,5 @@
 homepage: "https://100shoppers.com"
 documentation: "https://help.100shoppers.com/en/articles/4315445-integration-through-google-tag-manager"
 versions:
-  - sha: a3cd8365add6c9699cc7282de079a0faf5ede8bc
+  - sha: 4978bb24ee29e6779ee71ef304c21ce832cd20a9
     changeNotes: Initial release.
