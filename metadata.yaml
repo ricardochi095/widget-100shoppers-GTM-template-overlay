@@ -1,5 +1,7 @@
 homepage: "https://100shoppers.com"
 documentation: "https://help.100shoppers.com/en/articles/4315445-integration-through-google-tag-manager"
 versions:
+  - sha: 449606b6a18f112288d8e3ab1851a0549dce499f
+    changeNotes: Update template icon.
   - sha: 8ef2469f3a7b15642a2672b8ce7f449f8656a123
     changeNotes: Initial release.
