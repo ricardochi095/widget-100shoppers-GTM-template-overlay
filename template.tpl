@@ -43,6 +43,27 @@ ___TEMPLATE_PARAMETERS___
     "defaultValue": "overlay"
   },
   {
+    "type": "SELECT",
+    "name": "bb-version",
+    "displayName": "Widget version",
+    "selectItems": [
+      {
+        "value": "latest",
+        "displayValue": "Latest"
+      },
+      {
+        "value": "5.1",
+        "displayValue": "5.1"
+      },
+      {
+        "value": "5.0",
+        "displayValue": "5.0"
+      }
+    ],
+    "simpleValueType": true,
+    "defaultValue": "latest"
+  },
+  {
     "type": "TEXT",
     "name": "id",
     "displayName": "Document element ID",
