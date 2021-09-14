@@ -70,12 +70,24 @@ ___TEMPLATE_PARAMETERS___
     "selectItems": [
       {
         "value": "pl",
-        "displayValue": "Polski"
+        "displayValue": "Polish"
       },
       {
         "value": "en",
         "displayValue": "English"
       },
+      {
+        "value": "lt",
+        "displayValue": "Lithuanian"
+      },
+      {
+        "value": "lv",
+        "displayValue": "Latvian"
+      },
+      {
+        "value": "et",
+        "displayValue": "Estonian"
+      }
     ],
     "simpleValueType": true,
     "defaultValue": "pl"
