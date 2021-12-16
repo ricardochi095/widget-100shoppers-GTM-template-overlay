@@ -459,6 +459,28 @@ ___TEMPLATE_PARAMETERS___
         ]
       },
       {
+        "type": "SELECT",
+        "name": "bb-sort",
+        "displayName": "Sort order",
+        "selectItems": [
+          {
+            "value": "ascending",
+            "displayValue": "Ascending"
+          },
+          {
+            "value": "descending",
+            "displayValue": "Descending"
+          },
+          {
+            "value": "random",
+            "displayValue": "Random"
+          }
+        ],
+        "simpleValueType": true,
+        "notSetText": "Default",
+        "help": "Sorting offers will respect shops' weight order configuration"
+      },
+      {
         "type": "TEXT",
         "name": "bb-abpar1",
         "displayName": "Additional user parameter (abpar1)",
