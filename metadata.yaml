@@ -1,6 +1,8 @@
 homepage: "https://100shoppers.com"
 documentation: "https://help.100shoppers.com/en/articles/4315445-integration-through-google-tag-manager"
 versions:
+  - sha: 6e4310690a5c5920046341b538011413bf51f267
+    changeNotes: Add sort order field.
   - sha: 9b7d3b32e77eda4235ee82af71489089b6003a17
     changeNotes: Add support for lt, lv, et languages.
   - sha: 56f700383494510cab2ec36c006c4693d7fc012b
