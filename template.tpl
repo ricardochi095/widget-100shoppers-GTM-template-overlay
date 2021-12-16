@@ -352,6 +352,35 @@ ___TEMPLATE_PARAMETERS___
           "simpleValueType": true
         },
         "isUnique": false
+      },
+      {
+        "param": {
+          "type": "SELECT",
+          "name": "bb-var-use-tabs",
+          "displayName": "Divide formats into tabs",
+          "selectItems": [
+            {
+              "value": true,
+              "displayValue": "Yes"
+            },
+            {
+              "value": false,
+              "displayValue": "No"
+            }
+          ],
+          "simpleValueType": true,
+          "notSetText": "Default"
+        },
+        "isUnique": false
+      },
+      {
+        "param": {
+          "type": "TEXT",
+          "name": "bb-var-default-tab",
+          "displayName": "Default tab ID",
+          "simpleValueType": true
+        },
+        "isUnique": false
       }
     ],
     "enablingConditions": [
@@ -516,6 +545,29 @@ ___TEMPLATE_PARAMETERS___
             "type": "NOT_PRESENT"
           }
         ]
+      },
+      {
+        "type": "SELECT",
+        "name": "bb-use-tabs",
+        "displayName": "Divide formats into tabs",
+        "selectItems": [
+          {
+            "value": true,
+            "displayValue": "Yes"
+          },
+          {
+            "value": false,
+            "displayValue": "No"
+          }
+        ],
+        "simpleValueType": true,
+        "notSetText": "Default"
+      },
+      {
+        "type": "TEXT",
+        "name": "bb-default-tab",
+        "displayName": "Default tab ID",
+        "simpleValueType": true
       }
     ]
   }
