@@ -1,6 +1,8 @@
 homepage: "https://100shoppers.com"
 documentation: "https://help.100shoppers.com/en/articles/4315445-integration-through-google-tag-manager"
 versions:
+  - sha: faaf0905b99835d349cff21385da3da4d772c88d
+    changeNotes: Add support for de language.
   - sha: 9b7d3b32e77eda4235ee82af71489089b6003a17
     changeNotes: Add support for lt, lv, et languages.
   - sha: 56f700383494510cab2ec36c006c4693d7fc012b
