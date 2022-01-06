@@ -87,6 +87,10 @@ ___TEMPLATE_PARAMETERS___
       {
         "value": "et",
         "displayValue": "Estonian"
+      },
+      {
+        "value": "de",
+        "displayValue": "German"
       }
     ],
     "simpleValueType": true,
