@@ -3,6 +3,10 @@ documentation: "https://help.100shoppers.com/en/articles/4315445-integration-thr
 versions:
   - sha: a8e917934f9e3878fb392cfe992937a92d62dae1
     changeNotes: Add missing config overrides.
+  - sha: 6e4310690a5c5920046341b538011413bf51f267
+    changeNotes: Add sort order field.
+  - sha: 00b46bc3fde59f75aae54c2b2467ebfaac9994d3
+    changeNotes: Additional overlay widget trigger.
   - sha: 9b7d3b32e77eda4235ee82af71489089b6003a17
     changeNotes: Add support for lt, lv, et languages.
   - sha: 56f700383494510cab2ec36c006c4693d7fc012b

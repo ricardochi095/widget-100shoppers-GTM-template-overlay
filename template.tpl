@@ -43,6 +43,20 @@ ___TEMPLATE_PARAMETERS___
     "defaultValue": "overlay"
   },
   {
+      "type": "CHECKBOX",
+      "name": "bb-show",
+      "checkboxText": "Show widget on page load",
+      "simpleValueType": true,
+      "help": "If enabled, widget will be automatically shown on page load or after calling window.bb.forceReload(). Only a single widget can be shown this way.",
+      "enablingConditions": [
+        {
+          "paramName": "bb-type",
+          "paramValue": "overlay",
+          "type": "EQUALS"
+        }
+      ]
+    },
+  {
     "type": "SELECT",
     "name": "bb-version",
     "displayName": "Widget version",
@@ -486,6 +500,28 @@ ___TEMPLATE_PARAMETERS___
             "type": "EQUALS"
           }
         ]
+      },
+      {
+        "type": "SELECT",
+        "name": "bb-sort",
+        "displayName": "Sort order",
+        "selectItems": [
+          {
+            "value": "ascending",
+            "displayValue": "Ascending"
+          },
+          {
+            "value": "descending",
+            "displayValue": "Descending"
+          },
+          {
+            "value": "random",
+            "displayValue": "Random"
+          }
+        ],
+        "simpleValueType": true,
+        "notSetText": "Default",
+        "help": "Sorting offers will respect shops' weight order configuration"
       },
       {
         "type": "TEXT",
