@@ -1,6 +1,8 @@
 homepage: "https://100shoppers.com"
 documentation: "https://help.100shoppers.com/en/articles/4315445-integration-through-google-tag-manager"
 versions:
+  - sha: a8e917934f9e3878fb392cfe992937a92d62dae1
+    changeNotes: Add missing config overrides.
   - sha: 6e4310690a5c5920046341b538011413bf51f267
     changeNotes: Add sort order field.
   - sha: 00b46bc3fde59f75aae54c2b2467ebfaac9994d3
