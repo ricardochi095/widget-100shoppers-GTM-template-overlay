@@ -43,6 +43,20 @@ ___TEMPLATE_PARAMETERS___
     "defaultValue": "overlay"
   },
   {
+      "type": "CHECKBOX",
+      "name": "bb-show",
+      "checkboxText": "Show widget on page load",
+      "simpleValueType": true,
+      "help": "If enabled, widget will be automatically shown on page load or after calling window.bb.forceReload(). Only a single widget can be shown this way.",
+      "enablingConditions": [
+        {
+          "paramName": "bb-type",
+          "paramValue": "overlay",
+          "type": "EQUALS"
+        }
+      ]
+    },
+  {
     "type": "SELECT",
     "name": "bb-version",
     "displayName": "Widget version",
@@ -356,6 +370,35 @@ ___TEMPLATE_PARAMETERS___
           "simpleValueType": true
         },
         "isUnique": false
+      },
+      {
+        "param": {
+          "type": "SELECT",
+          "name": "bb-var-use-tabs",
+          "displayName": "Divide formats into tabs",
+          "selectItems": [
+            {
+              "value": true,
+              "displayValue": "Yes"
+            },
+            {
+              "value": false,
+              "displayValue": "No"
+            }
+          ],
+          "simpleValueType": true,
+          "notSetText": "Default"
+        },
+        "isUnique": false
+      },
+      {
+        "param": {
+          "type": "TEXT",
+          "name": "bb-var-default-tab",
+          "displayName": "Default tab ID",
+          "simpleValueType": true
+        },
+        "isUnique": false
       }
     ],
     "enablingConditions": [
@@ -463,6 +506,28 @@ ___TEMPLATE_PARAMETERS___
         ]
       },
       {
+        "type": "SELECT",
+        "name": "bb-sort",
+        "displayName": "Sort order",
+        "selectItems": [
+          {
+            "value": "ascending",
+            "displayValue": "Ascending"
+          },
+          {
+            "value": "descending",
+            "displayValue": "Descending"
+          },
+          {
+            "value": "random",
+            "displayValue": "Random"
+          }
+        ],
+        "simpleValueType": true,
+        "notSetText": "Default",
+        "help": "Sorting offers will respect shops' weight order configuration"
+      },
+      {
         "type": "TEXT",
         "name": "bb-abpar1",
         "displayName": "Additional user parameter (abpar1)",
@@ -520,6 +585,29 @@ ___TEMPLATE_PARAMETERS___
             "type": "NOT_PRESENT"
           }
         ]
+      },
+      {
+        "type": "SELECT",
+        "name": "bb-use-tabs",
+        "displayName": "Divide formats into tabs",
+        "selectItems": [
+          {
+            "value": true,
+            "displayValue": "Yes"
+          },
+          {
+            "value": false,
+            "displayValue": "No"
+          }
+        ],
+        "simpleValueType": true,
+        "notSetText": "Default"
+      },
+      {
+        "type": "TEXT",
+        "name": "bb-default-tab",
+        "displayName": "Default tab ID",
+        "simpleValueType": true
       }
     ]
   }
