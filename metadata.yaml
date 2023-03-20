@@ -1,6 +1,8 @@
 homepage: "https://100shoppers.com"
 documentation: "https://help.100shoppers.com/en/articles/4315445-integration-through-google-tag-manager"
 versions:
+  - sha: cd7569d54a0de29c933ea63718fe4dd319e3f1cc
+    changeNotes: Add data-bb-add-source-params attribute to the widget.
   - sha: faaf0905b99835d349cff21385da3da4d772c88d
     changeNotes: Add support for de language.
   - sha: a8e917934f9e3878fb392cfe992937a92d62dae1
